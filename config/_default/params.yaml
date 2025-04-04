@@ -5,8 +5,8 @@
 
 # Appearance
 appearance:
-  mode: light
-  color: blue
+  mode: system
+  color: red
 
 # SEO
 marketing:
@@ -36,22 +36,23 @@ header:
     align: "center"
     fixed_to_top: true
     logo:
-      text: ""
+      text: "MAPA"
       # Logo filename in `assets/media/` folder
-      filename: "logo.svg"
+      filename: ""
     button:
       enable: true
-      text: "Get Started"
-      url: "https://hugoblox.com/templates/details/docs/"
+      text: "Shen Lab"
+      url: "https://www.shen-lab.org/"
     show_search: true
     show_theme_chooser: true
+    highlight_active_link: true
 
 # Site footer
 footer:
   copyright:
-    notice: '© {year} Shen Lab@NTU Singapore.'
+    notice: '© {year} Shen Lab@NTU Singapore'
     license:
-      enable: true
+      enable: false
       allow_derivatives: false
       share_alike: true
       allow_commercial: false
@@ -68,7 +69,7 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/HugoBlox/hugo-blox-builder/'
+    url: 'https://github.com/jaspershen-lab/mapa-website'
     content_dir: 'starters/documentation/content'
     branch: 'main'
   feedback:
@@ -76,7 +77,10 @@ features:
       positive: 'Glad to hear it! [Any ideas for improvements?](https://github.com/<USERNAME>/<REPO>/issues/new).'
       negative: 'Sorry to hear that. [Please tell us how we can improve](https://github.com/<USERNAME>/<REPO>/issues/new).'
   comment:
-    provider: ''
+    provider: 'disqus'
+    disqus:
+      shortname: 'blog-at8qrhng8b'
+      show_count: true
     giscus:
       repo: ''
       repo_id: ''

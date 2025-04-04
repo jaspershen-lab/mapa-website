@@ -48,7 +48,7 @@ class="hb-card group">
 &lt;tbody>
 &lt;tr>
 &lt;td>&lt;code>icon&lt;/code>&lt;/td>
-&lt;td>Name of the icon. Defaults to &lt;a href="https://heroicons.com/">Hero Icon Pack&lt;/a>&lt;/td>
+&lt;td>Name of the icon. Defaults to &lt;a href="https://heroicons.com/" target="_blank" rel="noopener">Hero Icon Pack&lt;/a>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>&lt;code>title&lt;/code>&lt;/td>

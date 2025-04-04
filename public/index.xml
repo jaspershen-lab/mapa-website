@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home | Hugo Docs</title><link>https://example.com/</link><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml"/><description>Home</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 24 Oct 2023 00:00:00 +0000</lastBuildDate><image><url>https://example.com/media/logo.svg</url><title>Home</title><link>https://example.com/</link></image><item><title>Getting Started</title><link>https://example.com/docs/getting-started/</link><pubDate>Sat, 17 Feb 2024 00:00:00 +0000</pubDate><guid>https://example.com/docs/getting-started/</guid><description>&lt;h2 id="quick-start-from-template">Quick Start from Template&lt;/h2>
 &lt;div class="hb-steps">
 &lt;h3 id="initialize-a-new-site">Initialize a new site&lt;/h3>
-&lt;p>&lt;a href="https://github.com/new?template_name=theme-documentation&amp;amp;template_owner=HugoBlox">Click to copy the template on GitHub&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://github.com/new?template_name=theme-documentation&amp;amp;template_owner=HugoBlox" target="_blank" rel="noopener">Click to copy the template on GitHub&lt;/a>&lt;/p>
 &lt;h3 id="configure-your-new-site">Configure your new site&lt;/h3>
-&lt;p>&lt;a href="https://docs.hugoblox.com/tutorial/blog/">Configure your site name, description, and menu.&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://docs.hugoblox.com/tutorial/blog/" target="_blank" rel="noopener">Configure your site name, description, and menu.&lt;/a>&lt;/p>
 &lt;h3 id="add-your-content">Add your content&lt;/h3>
-&lt;p>&lt;a href="https://docs.hugoblox.com/tutorial/blog/">Edit the homepage and add your documentation pages.&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://docs.hugoblox.com/tutorial/blog/" target="_blank" rel="noopener">Edit the homepage and add your documentation pages.&lt;/a>&lt;/p>
 &lt;h3 id="publish-your-site">Publish your site&lt;/h3>
-&lt;p>&lt;a href="https://docs.hugoblox.com/tutorial/blog/">Easily publish your site for free with GitHub Pages&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://docs.hugoblox.com/tutorial/blog/" target="_blank" rel="noopener">Easily publish your site for free with GitHub Pages&lt;/a>&lt;/p>
 &lt;/div>
 &lt;h2 id="next">Next&lt;/h2>
 &lt;p>Let&amp;rsquo;s customize your new site:&lt;/p>
@@ -20,7 +20,7 @@ class="hb-card group"href="../guide/project-structure" >
 class="hb-card group"href="../guide/configuration" >
 &lt;span class="hb-card-title p-4">
 &lt;svg style="height: 1em; width: 1em;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6 13.5V3.75m0 9.75a1.5 1.5 0 0 1 0 3m0-3a1.5 1.5 0 0 0 0 3m0 3.75V16.5m12-3V3.75m0 9.75a1.5 1.5 0 0 1 0 3m0-3a1.5 1.5 0 0 0 0 3m0 3.75V16.5m-6-9V3.75m0 3.75a1.5 1.5 0 0 1 0 3m0-3a1.5 1.5 0 0 0 0 3m0 9.75V10.5"/>&lt;/svg>Configuration&lt;/span>&lt;/a>
-&lt;/div></description></item><item><title>Customizing Hugo</title><link>https://example.com/docs/reference/customization/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/docs/reference/customization/</guid><description>&lt;p>View the full docs at &lt;a href="https://docs.hugoblox.com/getting-started/customize/">https://docs.hugoblox.com/getting-started/customize/&lt;/a>&lt;/p></description></item><item><title>Project Structure</title><link>https://example.com/docs/guide/project-structure/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/docs/guide/project-structure/</guid><description>&lt;h2 id="folder-structure">Folder Structure&lt;/h2>
+&lt;/div></description></item><item><title>Customizing Hugo</title><link>https://example.com/docs/reference/customization/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/docs/reference/customization/</guid><description>&lt;p>View the full docs at &lt;a href="https://docs.hugoblox.com/getting-started/customize/" target="_blank" rel="noopener">https://docs.hugoblox.com/getting-started/customize/&lt;/a>&lt;/p></description></item><item><title>Project Structure</title><link>https://example.com/docs/guide/project-structure/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/docs/guide/project-structure/</guid><description>&lt;h2 id="folder-structure">Folder Structure&lt;/h2>
 &lt;p>There are &lt;strong>4 main folders for Hugo-based sites&lt;/strong>:&lt;/p>
 &lt;ul>
 &lt;li>&lt;code>content/&lt;/code> for your Markdown-formatted content files (homepage, etc.)
@@ -70,10 +70,10 @@ class="hb-card group"href="../guide/configuration" >
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nn">---&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Configuration</title><link>https://example.com/docs/guide/configuration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/docs/guide/configuration/</guid><description>&lt;p>The configuration of your site can be found in &lt;code>config/_default/&lt;/code>.&lt;/p>
 &lt;h2 id="full-documentation">Full Documentation&lt;/h2>
-&lt;p>See &lt;a href="https://docs.hugoblox.com/getting-started/customize/">https://docs.hugoblox.com/getting-started/customize/&lt;/a>&lt;/p>
+&lt;p>See &lt;a href="https://docs.hugoblox.com/getting-started/customize/" target="_blank" rel="noopener">https://docs.hugoblox.com/getting-started/customize/&lt;/a>&lt;/p>
 &lt;h2 id="navigation">Navigation&lt;/h2>
 &lt;h3 id="menu">Menu&lt;/h3>
-&lt;p>See &lt;a href="https://docs.hugoblox.com/getting-started/customize/#menu-items">https://docs.hugoblox.com/getting-started/customize/#menu-items&lt;/a>&lt;/p>
+&lt;p>See &lt;a href="https://docs.hugoblox.com/getting-started/customize/#menu-items" target="_blank" rel="noopener">https://docs.hugoblox.com/getting-started/customize/#menu-items&lt;/a>&lt;/p>
 &lt;h2 id="left-sidebar">Left Sidebar&lt;/h2>
 &lt;p>Links are automatically generated from the structure of your content directory. Simply add a folder to nest a page.&lt;/p>
 &lt;h3 id="extra-links">Extra Links&lt;/h3>
@@ -97,7 +97,7 @@ class="hb-card group"href="../guide/configuration" >
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">title&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">My Page&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">toc&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="kc">false&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nn">---&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Nvidia</title><link>https://example.com/showcase/nvidia/</link><pubDate>Sat, 17 Feb 2024 00:00:00 +0000</pubDate><guid>https://example.com/showcase/nvidia/</guid><description/></item><item><title>v2.0.0 Released!</title><link>https://example.com/blog/v2.0.0/</link><pubDate>Fri, 19 Jan 2024 00:00:00 +0000</pubDate><guid>https://example.com/blog/v2.0.0/</guid><description>&lt;p>Hugo v2.0.0 is now available! This release includes new experimental features to try out, improvements to accessibility, the ability for plugins to customize image optimization in Markdown, and many more improvements and bug fixes.&lt;/p>
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Nvidia</title><link>https://example.com/showcase/nvidia/</link><pubDate>Sat, 17 Feb 2024 00:00:00 +0000</pubDate><guid>https://example.com/showcase/nvidia/</guid><description/></item><item><title>v2.0.0 Released!</title><link>https://example.com/news/v2.0.0/</link><pubDate>Fri, 19 Jan 2024 00:00:00 +0000</pubDate><guid>https://example.com/news/v2.0.0/</guid><description>&lt;p>Hugo v2.0.0 is now available! This release includes new experimental features to try out, improvements to accessibility, the ability for plugins to customize image optimization in Markdown, and many more improvements and bug fixes.&lt;/p>
 &lt;p>Highlights include:&lt;/p>
 &lt;ul>
 &lt;li>New config options&lt;/li>
@@ -112,7 +112,7 @@ class="hb-card group"href="../guide/configuration" >
 &lt;h2 id="how-to-upgrade">How to Upgrade&lt;/h2>
 &lt;p>Simply run the following command in your terminal:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">hugo mod get -u github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind@main
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae fringilla sem. Integer mattis dictum augue non auctor. Proin quis porttitor enim. Praesent vulputate arcu egestas scelerisque condimentum. Vivamus elit risus, suscipit et enim et, viverra molestie elit. Nulla ullamcorper nisl vel nisi pellentesque, id feugiat risus interdum. Duis consequat ipsum elit. Aenean hendrerit diam ipsum, a convallis magna congue et. Sed ex erat, pretium et ante id, malesuada luctus nibh. Nunc nec consectetur elit.&lt;/p></description></item><item><title>v1.0.0 Released!</title><link>https://example.com/blog/v1.0.0/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>https://example.com/blog/v1.0.0/</guid><description>&lt;p>Hugo v1.0.0 is now available! This release includes new experimental features to try out, improvements to accessibility, the ability for plugins to customize image optimization in Markdown, and many more improvements and bug fixes.&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae fringilla sem. Integer mattis dictum augue non auctor. Proin quis porttitor enim. Praesent vulputate arcu egestas scelerisque condimentum. Vivamus elit risus, suscipit et enim et, viverra molestie elit. Nulla ullamcorper nisl vel nisi pellentesque, id feugiat risus interdum. Duis consequat ipsum elit. Aenean hendrerit diam ipsum, a convallis magna congue et. Sed ex erat, pretium et ante id, malesuada luctus nibh. Nunc nec consectetur elit.&lt;/p></description></item><item><title>v1.0.0 Released!</title><link>https://example.com/news/v1.0.0/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>https://example.com/news/v1.0.0/</guid><description>&lt;p>Hugo v1.0.0 is now available! This release includes new experimental features to try out, improvements to accessibility, the ability for plugins to customize image optimization in Markdown, and many more improvements and bug fixes.&lt;/p>
 &lt;p>Highlights include:&lt;/p>
 &lt;ul>
 &lt;li>New config options&lt;/li>
@@ -127,8 +127,8 @@ class="hb-card group"href="../guide/configuration" >
 &lt;h2 id="how-to-upgrade">How to Upgrade&lt;/h2>
 &lt;p>Simply run the following command in your terminal:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">hugo mod get -u github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind@main
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae fringilla sem. Integer mattis dictum augue non auctor. Proin quis porttitor enim. Praesent vulputate arcu egestas scelerisque condimentum. Vivamus elit risus, suscipit et enim et, viverra molestie elit. Nulla ullamcorper nisl vel nisi pellentesque, id feugiat risus interdum. Duis consequat ipsum elit. Aenean hendrerit diam ipsum, a convallis magna congue et. Sed ex erat, pretium et ante id, malesuada luctus nibh. Nunc nec consectetur elit.&lt;/p></description></item><item><title>Hello R Markdown</title><link>https://example.com/blog/2020-12-01-r-rmarkdown/</link><pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate><guid>https://example.com/blog/2020-12-01-r-rmarkdown/</guid><description>&lt;h1 id="r-markdown">R Markdown&lt;/h1>
-&lt;p>This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see &lt;a href="http://rmarkdown.rstudio.com">http://rmarkdown.rstudio.com&lt;/a>.&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae fringilla sem. Integer mattis dictum augue non auctor. Proin quis porttitor enim. Praesent vulputate arcu egestas scelerisque condimentum. Vivamus elit risus, suscipit et enim et, viverra molestie elit. Nulla ullamcorper nisl vel nisi pellentesque, id feugiat risus interdum. Duis consequat ipsum elit. Aenean hendrerit diam ipsum, a convallis magna congue et. Sed ex erat, pretium et ante id, malesuada luctus nibh. Nunc nec consectetur elit.&lt;/p></description></item><item><title>Hello R Markdown</title><link>https://example.com/news/2020-12-01-r-rmarkdown/</link><pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate><guid>https://example.com/news/2020-12-01-r-rmarkdown/</guid><description>&lt;h1 id="r-markdown">R Markdown&lt;/h1>
+&lt;p>This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see &lt;a href="http://rmarkdown.rstudio.com" target="_blank" rel="noopener">http://rmarkdown.rstudio.com&lt;/a>.&lt;/p>
 &lt;p>You can embed an R code chunk like this:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-r" data-lang="r">&lt;span class="line">&lt;span class="cl">&lt;span class="nf">summary&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">cars&lt;/span>&lt;span class="p">)&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">## speed dist &lt;/span>
@@ -157,7 +157,7 @@ class="hb-card group"href="../guide/configuration" >
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">init.angle&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="m">-50&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">border&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="kc">NA&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">)&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="figure">
-&lt;img src="https://example.com/blog/2020-12-01-r-rmarkdown/index.en_files/figure-html/pie-1.png" alt="A fancy pie chart." width="672" />
+&lt;img src="https://example.com/news/2020-12-01-r-rmarkdown/index.en_files/figure-html/pie-1.png" alt="A fancy pie chart." width="672" />
 &lt;p class="caption">&lt;span id="fig:pie">&lt;/span>Figure 1: A fancy pie chart.&lt;/p>
 &lt;/div></description></item><item><title>Callout Shortcode</title><link>https://example.com/docs/guide/shortcodes/callout/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/docs/guide/shortcodes/callout/</guid><description>&lt;p>Hugo Blox supports a Markdown extension for callouts, also referred to as alerts or asides.&lt;/p>
 &lt;p>Callouts are a useful feature to draw attention to important or related content such as notes, hints, or warnings in your articles.&lt;/p>
@@ -209,7 +209,7 @@ class="hb-card group">
 &lt;tbody>
 &lt;tr>
 &lt;td>&lt;code>icon&lt;/code>&lt;/td>
-&lt;td>Name of the icon. Defaults to &lt;a href="https://heroicons.com/">Hero Icon Pack&lt;/a>&lt;/td>
+&lt;td>Name of the icon. Defaults to &lt;a href="https://heroicons.com/" target="_blank" rel="noopener">Hero Icon Pack&lt;/a>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>&lt;code>title&lt;/code>&lt;/td>
@@ -228,11 +228,11 @@ class="hb-card group">
 &lt;p>Get support fast. Hugo Blox has the largest Hugo community on Discord, consisting of thousands of creators, developers, and startups.&lt;/p>
 &lt;h2 id="docs">Docs&lt;/h2>
 &lt;ul>
-&lt;li>View the &lt;a href="https://docs.hugoblox.com/">Hugo Blox Documentation&lt;/a>&lt;/li>
+&lt;li>View the &lt;a href="https://docs.hugoblox.com/" target="_blank" rel="noopener">Hugo Blox Documentation&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="chat">Live Chat&lt;/h2>
 &lt;ul>
-&lt;li>Join the &lt;a href="https://discord.gg/z8wNYzb">Hugo Blox Online Chat&lt;/a>
+&lt;li>Join the &lt;a href="https://discord.gg/z8wNYzb" target="_blank" rel="noopener">Hugo Blox Online Chat&lt;/a>
 &lt;ul>
 &lt;li>&lt;em>#using-hugo-blox&lt;/em> for user help&lt;/li>
 &lt;li>&lt;em>#contributors&lt;/em> for contributing help&lt;/li>
@@ -240,19 +240,19 @@ class="hb-card group">
 &lt;/li>
 &lt;/ul>
 &lt;h2 id="feature-requests">Feature requests&lt;/h2>
-&lt;p>For new feature requests, create a post on our &lt;a href="https://github.com/HugoBlox/hugo-blox-builder/issues">GitHub Issues&lt;/a>. You can also upvote existing feature requests with a 👍&lt;/p>
+&lt;p>For new feature requests, create a post on our &lt;a href="https://github.com/HugoBlox/hugo-blox-builder/issues" target="_blank" rel="noopener">GitHub Issues&lt;/a>. You can also upvote existing feature requests with a 👍&lt;/p>
 &lt;h2 id="news">News&lt;/h2>
 &lt;p>Follow us so you are the first to know when new features and templates are launched:&lt;/p>
 &lt;ul>
-&lt;li>&lt;a href="https://discord.gg/z8wNYzb">Subscribe to the &lt;em>#announcement&lt;/em> channel on Discord&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://twitter.com/GetResearchDev">Follow us on Twitter&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://hugoblox.com/blog/">Subscribe to the Hugo Blox blog&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://discord.gg/z8wNYzb" target="_blank" rel="noopener">Subscribe to the &lt;em>#announcement&lt;/em> channel on Discord&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://twitter.com/GetResearchDev" target="_blank" rel="noopener">Follow us on Twitter&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://hugoblox.com/blog/" target="_blank" rel="noopener">Subscribe to the Hugo Blox blog&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="further-resources">Further Resources&lt;/h2>
 &lt;ul>
-&lt;li>&lt;a href="https://discourse.gohugo.io/">Hugo Forums&lt;/a> for help installing Hugo and resolving Hugo error messages&lt;/li>
-&lt;/ul></description></item><item><title>Internationalization (i18n)</title><link>https://example.com/docs/reference/i18n/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/docs/reference/i18n/</guid><description>&lt;p>Hugo Blox enables you to easily edit the interface text as well as translating your site into multiple languages using Hugo&amp;rsquo;s &lt;a href="https://gohugo.io/content-management/multilingual/">multilingual&lt;/a> feature.&lt;/p>
-&lt;p>View the full docs at &lt;a href="https://docs.hugoblox.com/reference/language/">https://docs.hugoblox.com/reference/language/&lt;/a>&lt;/p></description></item><item><title>Spoiler</title><link>https://example.com/docs/guide/shortcodes/toggle/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/docs/guide/shortcodes/toggle/</guid><description>&lt;p>A Hugo shortcode to toggle collapsible content.&lt;/p>
+&lt;li>&lt;a href="https://discourse.gohugo.io/" target="_blank" rel="noopener">Hugo Forums&lt;/a> for help installing Hugo and resolving Hugo error messages&lt;/li>
+&lt;/ul></description></item><item><title>Internationalization (i18n)</title><link>https://example.com/docs/reference/i18n/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/docs/reference/i18n/</guid><description>&lt;p>Hugo Blox enables you to easily edit the interface text as well as translating your site into multiple languages using Hugo&amp;rsquo;s &lt;a href="https://gohugo.io/content-management/multilingual/" target="_blank" rel="noopener">multilingual&lt;/a> feature.&lt;/p>
+&lt;p>View the full docs at &lt;a href="https://docs.hugoblox.com/reference/language/" target="_blank" rel="noopener">https://docs.hugoblox.com/reference/language/&lt;/a>&lt;/p></description></item><item><title>Spoiler</title><link>https://example.com/docs/guide/shortcodes/toggle/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/docs/guide/shortcodes/toggle/</guid><description>&lt;p>A Hugo shortcode to toggle collapsible content.&lt;/p>
 &lt;h2 id="example">Example&lt;/h2>
 &lt;details class="spoiler " id="spoiler-0">
 &lt;summary class="cursor-pointer">Click to view the spoiler&lt;/summary>

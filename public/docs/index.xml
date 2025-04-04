@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Introduction | Hugo Docs</title><link>https://example.com/docs/</link><atom:link href="https://example.com/docs/index.xml" rel="self" type="application/rss+xml"/><description>Introduction</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 17 Feb 2024 00:00:00 +0000</lastBuildDate><image><url>https://example.com/media/logo.svg</url><title>Introduction</title><link>https://example.com/docs/</link></image><item><title>Getting Started</title><link>https://example.com/docs/getting-started/</link><pubDate>Sat, 17 Feb 2024 00:00:00 +0000</pubDate><guid>https://example.com/docs/getting-started/</guid><description>&lt;h2 id="quick-start-from-template">Quick Start from Template&lt;/h2>
 &lt;div class="hb-steps">
 &lt;h3 id="initialize-a-new-site">Initialize a new site&lt;/h3>
-&lt;p>&lt;a href="https://github.com/new?template_name=theme-documentation&amp;amp;template_owner=HugoBlox">Click to copy the template on GitHub&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://github.com/new?template_name=theme-documentation&amp;amp;template_owner=HugoBlox" target="_blank" rel="noopener">Click to copy the template on GitHub&lt;/a>&lt;/p>
 &lt;h3 id="configure-your-new-site">Configure your new site&lt;/h3>
-&lt;p>&lt;a href="https://docs.hugoblox.com/tutorial/blog/">Configure your site name, description, and menu.&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://docs.hugoblox.com/tutorial/blog/" target="_blank" rel="noopener">Configure your site name, description, and menu.&lt;/a>&lt;/p>
 &lt;h3 id="add-your-content">Add your content&lt;/h3>
-&lt;p>&lt;a href="https://docs.hugoblox.com/tutorial/blog/">Edit the homepage and add your documentation pages.&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://docs.hugoblox.com/tutorial/blog/" target="_blank" rel="noopener">Edit the homepage and add your documentation pages.&lt;/a>&lt;/p>
 &lt;h3 id="publish-your-site">Publish your site&lt;/h3>
-&lt;p>&lt;a href="https://docs.hugoblox.com/tutorial/blog/">Easily publish your site for free with GitHub Pages&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://docs.hugoblox.com/tutorial/blog/" target="_blank" rel="noopener">Easily publish your site for free with GitHub Pages&lt;/a>&lt;/p>
 &lt;/div>
 &lt;h2 id="next">Next&lt;/h2>
 &lt;p>Let&amp;rsquo;s customize your new site:&lt;/p>

@@ -2,27 +2,30 @@
 #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: Home
+  - name: HOME
     url: /
     weight: 10
-  - name: Team
+  - name: TEAM
     url: team/
     weight: 20
-  - name: Contact
+  - name: CONTACT
     url: contact/
     weight: 30
-  # - name: Blog
-  #   url: blog/
-  #   weight: 20
-  # - name: Showcase
-  #   url: showcase/
-  #   weight: 30
-  # - name: Community
-  #   url: community/
-  #   weight: 40
-  - name: Tutorials
+  - name: NEWS
+    url: news/
+    weight: 40
+  - name: TUTORIALS
     url: docs/
     weight: 50
+  # - name: Blog
+  #   url: blog/
+  #   weight: 30
+  # - name: Showcase
+  #   url: showcase/
+  #   weight: 40
+  # - name: Community
+  #   url: community/
+  #   weight: 50
 
 sidebar:
   - identifier: more

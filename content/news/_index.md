@@ -1,5 +1,5 @@
 ---
 title: Blog
-url: /blog/
+url: /news/
 view: date-title-summary
 ---

@@ -48,10 +48,10 @@
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nn">---&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Configuration</title><link>https://example.com/docs/guide/configuration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/docs/guide/configuration/</guid><description>&lt;p>The configuration of your site can be found in &lt;code>config/_default/&lt;/code>.&lt;/p>
 &lt;h2 id="full-documentation">Full Documentation&lt;/h2>
-&lt;p>See &lt;a href="https://docs.hugoblox.com/getting-started/customize/">https://docs.hugoblox.com/getting-started/customize/&lt;/a>&lt;/p>
+&lt;p>See &lt;a href="https://docs.hugoblox.com/getting-started/customize/" target="_blank" rel="noopener">https://docs.hugoblox.com/getting-started/customize/&lt;/a>&lt;/p>
 &lt;h2 id="navigation">Navigation&lt;/h2>
 &lt;h3 id="menu">Menu&lt;/h3>
-&lt;p>See &lt;a href="https://docs.hugoblox.com/getting-started/customize/#menu-items">https://docs.hugoblox.com/getting-started/customize/#menu-items&lt;/a>&lt;/p>
+&lt;p>See &lt;a href="https://docs.hugoblox.com/getting-started/customize/#menu-items" target="_blank" rel="noopener">https://docs.hugoblox.com/getting-started/customize/#menu-items&lt;/a>&lt;/p>
 &lt;h2 id="left-sidebar">Left Sidebar&lt;/h2>
 &lt;p>Links are automatically generated from the structure of your content directory. Simply add a folder to nest a page.&lt;/p>
 &lt;h3 id="extra-links">Extra Links&lt;/h3>
