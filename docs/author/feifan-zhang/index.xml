@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Feifan ZHANG | MAPA</title>
-    <link>https://www.mapa.org/author/feifan-zhang/</link>
-      <atom:link href="https://www.mapa.org/author/feifan-zhang/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://jaspershen-lab.github.io/mapa-website/author/feifan-zhang/</link>
+      <atom:link href="https://jaspershen-lab.github.io/mapa-website/author/feifan-zhang/index.xml" rel="self" type="application/rss+xml" />
     <description>Feifan ZHANG</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
     <image>
-      <url>https://www.mapa.org/author/feifan-zhang/avatar_hu59d50993104a1968f9dd97aac72ac593_31449_270x270_fill_q75_lanczos_center.jpg</url>
+      <url>https://jaspershen-lab.github.io/mapa-website/author/feifan-zhang/avatar_hu59d50993104a1968f9dd97aac72ac593_31449_270x270_fill_q75_lanczos_center.jpg</url>
       <title>Feifan ZHANG</title>
-      <link>https://www.mapa.org/author/feifan-zhang/</link>
+      <link>https://jaspershen-lab.github.io/mapa-website/author/feifan-zhang/</link>
     </image>
     
   </channel>

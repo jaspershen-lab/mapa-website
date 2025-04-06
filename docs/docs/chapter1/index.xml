@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Installation | MAPA</title>
-    <link>https://www.mapa.org/docs/chapter1/</link>
-      <atom:link href="https://www.mapa.org/docs/chapter1/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://jaspershen-lab.github.io/mapa-website/docs/chapter1/</link>
+      <atom:link href="https://jaspershen-lab.github.io/mapa-website/docs/chapter1/index.xml" rel="self" type="application/rss+xml" />
     <description>Installation</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 26 Aug 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://www.mapa.org/media/icon_hu020e6bcd0cde00a6d3452f1e68a5a64c_185832_512x512_fill_lanczos_center_3.png</url>
+      <url>https://jaspershen-lab.github.io/mapa-website/media/icon_hu020e6bcd0cde00a6d3452f1e68a5a64c_185832_512x512_fill_lanczos_center_3.png</url>
       <title>Installation</title>
-      <link>https://www.mapa.org/docs/chapter1/</link>
+      <link>https://jaspershen-lab.github.io/mapa-website/docs/chapter1/</link>
     </image>
     
     <item>
       <title>tidyfood.org</title>
-      <link>https://www.mapa.org/docs/chapter1/1-tidymircobiome.org/</link>
+      <link>https://jaspershen-lab.github.io/mapa-website/docs/chapter1/1-tidymircobiome.org/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://www.mapa.org/docs/chapter1/1-tidymircobiome.org/</guid>
+      <guid>https://jaspershen-lab.github.io/mapa-website/docs/chapter1/1-tidymircobiome.org/</guid>
       <description>&lt;h2 id=&#34;update-r-version&#34;&gt;Update R version&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;tidyfood&lt;/code&gt; require R version &amp;gt; 4.1.&lt;/p&gt;
 &lt;p&gt;You can check your R version in your console:&lt;/p&gt;
@@ -46,9 +46,9 @@
     
     <item>
       <title>GitHub</title>
-      <link>https://www.mapa.org/docs/chapter1/2-github/</link>
+      <link>https://jaspershen-lab.github.io/mapa-website/docs/chapter1/2-github/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://www.mapa.org/docs/chapter1/2-github/</guid>
+      <guid>https://jaspershen-lab.github.io/mapa-website/docs/chapter1/2-github/</guid>
       <description>&lt;h2 id=&#34;update-r-version&#34;&gt;Update R version&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;tidymicrobiome&lt;/code&gt; require R version &amp;gt; 4.1.&lt;/p&gt;
 &lt;p&gt;You can check your R version in your console:&lt;/p&gt;
@@ -113,10 +113,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /media/figures/fig3_hue1b374c52306d97bea859b2eb673936c_692585_40cca4076ed251804ce757115f4ccedb.webp 400w,
-               /media/figures/fig3_hue1b374c52306d97bea859b2eb673936c_692585_ebd2c890b841f3008fb6ca85012c3b23.webp 760w,
-               /media/figures/fig3_hue1b374c52306d97bea859b2eb673936c_692585_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://www.mapa.org/media/figures/fig3_hue1b374c52306d97bea859b2eb673936c_692585_40cca4076ed251804ce757115f4ccedb.webp&#34;
+               /mapa-website/media/figures/fig3_hue1b374c52306d97bea859b2eb673936c_692585_40cca4076ed251804ce757115f4ccedb.webp 400w,
+               /mapa-website/media/figures/fig3_hue1b374c52306d97bea859b2eb673936c_692585_ebd2c890b841f3008fb6ca85012c3b23.webp 760w,
+               /mapa-website/media/figures/fig3_hue1b374c52306d97bea859b2eb673936c_692585_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://jaspershen-lab.github.io/mapa-website/mapa-website/media/figures/fig3_hue1b374c52306d97bea859b2eb673936c_692585_40cca4076ed251804ce757115f4ccedb.webp&#34;
                width=&#34;760&#34;
                height=&#34;417&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -137,9 +137,9 @@
     
     <item>
       <title>GitLab</title>
-      <link>https://www.mapa.org/docs/chapter1/3-gitlab/</link>
+      <link>https://jaspershen-lab.github.io/mapa-website/docs/chapter1/3-gitlab/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://www.mapa.org/docs/chapter1/3-gitlab/</guid>
+      <guid>https://jaspershen-lab.github.io/mapa-website/docs/chapter1/3-gitlab/</guid>
       <description>&lt;h2 id=&#34;update-r-version&#34;&gt;Update R version&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;tidymicrobiome&lt;/code&gt; require R version &amp;gt; 4.1.&lt;/p&gt;
 &lt;p&gt;You can check your R version in your console:&lt;/p&gt;
@@ -175,9 +175,9 @@
     
     <item>
       <title>Update</title>
-      <link>https://www.mapa.org/docs/chapter1/4-update/</link>
+      <link>https://jaspershen-lab.github.io/mapa-website/docs/chapter1/4-update/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://www.mapa.org/docs/chapter1/4-update/</guid>
+      <guid>https://jaspershen-lab.github.io/mapa-website/docs/chapter1/4-update/</guid>
       <description>&lt;h2 id=&#34;check-version&#34;&gt;Check version&lt;/h2&gt;
 &lt;p&gt;You can use the &lt;code&gt;tidymicrobiome&lt;/code&gt; to check the version of all packages and update them.&lt;/p&gt;
 &lt;p&gt;If you want to check if there are updates for &lt;code&gt;tidymicrobiome&lt;/code&gt; and packages in it. Just check it like this.&lt;/p&gt;

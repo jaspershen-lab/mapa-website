@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Preface | MAPA</title>
-    <link>https://www.mapa.org/docs/</link>
-      <atom:link href="https://www.mapa.org/docs/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://jaspershen-lab.github.io/mapa-website/docs/</link>
+      <atom:link href="https://jaspershen-lab.github.io/mapa-website/docs/index.xml" rel="self" type="application/rss+xml" />
     <description>Preface</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 26 Aug 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://www.mapa.org/media/icon_hu020e6bcd0cde00a6d3452f1e68a5a64c_185832_512x512_fill_lanczos_center_3.png</url>
+      <url>https://jaspershen-lab.github.io/mapa-website/media/icon_hu020e6bcd0cde00a6d3452f1e68a5a64c_185832_512x512_fill_lanczos_center_3.png</url>
       <title>Preface</title>
-      <link>https://www.mapa.org/docs/</link>
+      <link>https://jaspershen-lab.github.io/mapa-website/docs/</link>
     </image>
     
   </channel>

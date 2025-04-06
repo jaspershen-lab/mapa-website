@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>MAPA</title>
-    <link>https://www.mapa.org/</link>
-      <atom:link href="https://www.mapa.org/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://jaspershen-lab.github.io/mapa-website/</link>
+      <atom:link href="https://jaspershen-lab.github.io/mapa-website/index.xml" rel="self" type="application/rss+xml" />
     <description>MAPA</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 26 Aug 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://www.mapa.org/media/icon_hu020e6bcd0cde00a6d3452f1e68a5a64c_185832_512x512_fill_lanczos_center_3.png</url>
+      <url>https://jaspershen-lab.github.io/mapa-website/media/icon_hu020e6bcd0cde00a6d3452f1e68a5a64c_185832_512x512_fill_lanczos_center_3.png</url>
       <title>MAPA</title>
-      <link>https://www.mapa.org/</link>
+      <link>https://jaspershen-lab.github.io/mapa-website/</link>
     </image>
     
     <item>
       <title>Importing data</title>
-      <link>https://www.mapa.org/docs/chapter2/1-import-data/</link>
+      <link>https://jaspershen-lab.github.io/mapa-website/docs/chapter2/1-import-data/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://www.mapa.org/docs/chapter2/1-import-data/</guid>
+      <guid>https://jaspershen-lab.github.io/mapa-website/docs/chapter2/1-import-data/</guid>
       <description>&lt;h2 id=&#34;loading-included-data&#34;&gt;Loading included data&lt;/h2&gt;
 &lt;p&gt;You can load the demo data in &lt;code&gt;microbiomedataset&lt;/code&gt; package to see the &lt;code&gt;microbiome_dataset&lt;/code&gt; class.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nf&#34;&gt;library&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;microbiomedataset&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
@@ -190,13 +190,13 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;microbiomedataset&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;plot_barplot&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;object&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;object&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; 
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                                &lt;span class=&#34;n&#34;&gt;top_n&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                                &lt;span class=&#34;n&#34;&gt;fill&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;Phylum&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://www.mapa.org/docs/chapter2/1-import-data_files/figure-html/unnamed-chunk-9-1.png&#34; width=&#34;100%&#34; /&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://jaspershen-lab.github.io/mapa-website/docs/chapter2/1-import-data_files/figure-html/unnamed-chunk-9-1.png&#34; width=&#34;100%&#34; /&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;microbiomedataset&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;plot_barplot&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;object&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;object&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; 
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                                &lt;span class=&#34;n&#34;&gt;top_n&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                                &lt;span class=&#34;n&#34;&gt;fill&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;Phylum&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; 
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                                &lt;span class=&#34;n&#34;&gt;relative&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;TRUE&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; 
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                                &lt;span class=&#34;n&#34;&gt;re_calculate_relative&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;TRUE&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://www.mapa.org/docs/chapter2/1-import-data_files/figure-html/unnamed-chunk-10-1.png&#34; width=&#34;100%&#34; /&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://jaspershen-lab.github.io/mapa-website/docs/chapter2/1-import-data_files/figure-html/unnamed-chunk-10-1.png&#34; width=&#34;100%&#34; /&gt;
 &lt;h2 id=&#34;session-information&#34;&gt;Session information&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nf&#34;&gt;sessionInfo&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#&amp;gt; R version 4.3.0 (2023-04-21)&lt;/span&gt;
@@ -303,9 +303,9 @@
     
     <item>
       <title>tidyfood.org</title>
-      <link>https://www.mapa.org/docs/chapter1/1-tidymircobiome.org/</link>
+      <link>https://jaspershen-lab.github.io/mapa-website/docs/chapter1/1-tidymircobiome.org/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://www.mapa.org/docs/chapter1/1-tidymircobiome.org/</guid>
+      <guid>https://jaspershen-lab.github.io/mapa-website/docs/chapter1/1-tidymircobiome.org/</guid>
       <description>&lt;h2 id=&#34;update-r-version&#34;&gt;Update R version&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;tidyfood&lt;/code&gt; require R version &amp;gt; 4.1.&lt;/p&gt;
 &lt;p&gt;You can check your R version in your console:&lt;/p&gt;
@@ -335,9 +335,9 @@
     
     <item>
       <title>Transform absolute to relative intensity</title>
-      <link>https://www.mapa.org/docs/chapter2/2-relative-intensity/</link>
+      <link>https://jaspershen-lab.github.io/mapa-website/docs/chapter2/2-relative-intensity/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://www.mapa.org/docs/chapter2/2-relative-intensity/</guid>
+      <guid>https://jaspershen-lab.github.io/mapa-website/docs/chapter2/2-relative-intensity/</guid>
       <description>&lt;h2 id=&#34;loading-included-data&#34;&gt;Loading included data&lt;/h2&gt;
 &lt;p&gt;Let&amp;rsquo;s load the demo data.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nf&#34;&gt;library&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;microbiomedataset&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
@@ -497,9 +497,9 @@
     
     <item>
       <title>GitHub</title>
-      <link>https://www.mapa.org/docs/chapter1/2-github/</link>
+      <link>https://jaspershen-lab.github.io/mapa-website/docs/chapter1/2-github/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://www.mapa.org/docs/chapter1/2-github/</guid>
+      <guid>https://jaspershen-lab.github.io/mapa-website/docs/chapter1/2-github/</guid>
       <description>&lt;h2 id=&#34;update-r-version&#34;&gt;Update R version&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;tidymicrobiome&lt;/code&gt; require R version &amp;gt; 4.1.&lt;/p&gt;
 &lt;p&gt;You can check your R version in your console:&lt;/p&gt;
@@ -564,10 +564,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /media/figures/fig3_hue1b374c52306d97bea859b2eb673936c_692585_40cca4076ed251804ce757115f4ccedb.webp 400w,
-               /media/figures/fig3_hue1b374c52306d97bea859b2eb673936c_692585_ebd2c890b841f3008fb6ca85012c3b23.webp 760w,
-               /media/figures/fig3_hue1b374c52306d97bea859b2eb673936c_692585_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://www.mapa.org/media/figures/fig3_hue1b374c52306d97bea859b2eb673936c_692585_40cca4076ed251804ce757115f4ccedb.webp&#34;
+               /mapa-website/media/figures/fig3_hue1b374c52306d97bea859b2eb673936c_692585_40cca4076ed251804ce757115f4ccedb.webp 400w,
+               /mapa-website/media/figures/fig3_hue1b374c52306d97bea859b2eb673936c_692585_ebd2c890b841f3008fb6ca85012c3b23.webp 760w,
+               /mapa-website/media/figures/fig3_hue1b374c52306d97bea859b2eb673936c_692585_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://jaspershen-lab.github.io/mapa-website/mapa-website/media/figures/fig3_hue1b374c52306d97bea859b2eb673936c_692585_40cca4076ed251804ce757115f4ccedb.webp&#34;
                width=&#34;760&#34;
                height=&#34;417&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -588,9 +588,9 @@
     
     <item>
       <title>Functions for accessing and preprocessing data</title>
-      <link>https://www.mapa.org/docs/chapter2/3-preprocess/</link>
+      <link>https://jaspershen-lab.github.io/mapa-website/docs/chapter2/3-preprocess/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://www.mapa.org/docs/chapter2/3-preprocess/</guid>
+      <guid>https://jaspershen-lab.github.io/mapa-website/docs/chapter2/3-preprocess/</guid>
       <description>&lt;h2 id=&#34;loading-included-data&#34;&gt;Loading included data&lt;/h2&gt;
 &lt;p&gt;Let&amp;rsquo;s load the demo data.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nf&#34;&gt;library&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;microbiomedataset&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
@@ -819,9 +819,9 @@
     
     <item>
       <title>GitLab</title>
-      <link>https://www.mapa.org/docs/chapter1/3-gitlab/</link>
+      <link>https://jaspershen-lab.github.io/mapa-website/docs/chapter1/3-gitlab/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://www.mapa.org/docs/chapter1/3-gitlab/</guid>
+      <guid>https://jaspershen-lab.github.io/mapa-website/docs/chapter1/3-gitlab/</guid>
       <description>&lt;h2 id=&#34;update-r-version&#34;&gt;Update R version&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;tidymicrobiome&lt;/code&gt; require R version &amp;gt; 4.1.&lt;/p&gt;
 &lt;p&gt;You can check your R version in your console:&lt;/p&gt;
@@ -857,9 +857,9 @@
     
     <item>
       <title>Merge data</title>
-      <link>https://www.mapa.org/docs/chapter2/4-merge/</link>
+      <link>https://jaspershen-lab.github.io/mapa-website/docs/chapter2/4-merge/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://www.mapa.org/docs/chapter2/4-merge/</guid>
+      <guid>https://jaspershen-lab.github.io/mapa-website/docs/chapter2/4-merge/</guid>
       <description>&lt;p&gt;Merging OTU or sample indices based on variables in the data can be a useful means of reducing noise or excess features in an analysis or graphic.&lt;/p&gt;
 &lt;h2 id=&#34;loading-included-data&#34;&gt;Loading included data&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nf&#34;&gt;library&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;microbiomedataset&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
@@ -1045,9 +1045,9 @@
     
     <item>
       <title>Update</title>
-      <link>https://www.mapa.org/docs/chapter1/4-update/</link>
+      <link>https://jaspershen-lab.github.io/mapa-website/docs/chapter1/4-update/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://www.mapa.org/docs/chapter1/4-update/</guid>
+      <guid>https://jaspershen-lab.github.io/mapa-website/docs/chapter1/4-update/</guid>
       <description>&lt;h2 id=&#34;check-version&#34;&gt;Check version&lt;/h2&gt;
 &lt;p&gt;You can use the &lt;code&gt;tidymicrobiome&lt;/code&gt; to check the version of all packages and update them.&lt;/p&gt;
 &lt;p&gt;If you want to check if there are updates for &lt;code&gt;tidymicrobiome&lt;/code&gt; and packages in it. Just check it like this.&lt;/p&gt;
@@ -1063,17 +1063,17 @@
     
     <item>
       <title>People</title>
-      <link>https://www.mapa.org/team/</link>
+      <link>https://jaspershen-lab.github.io/mapa-website/team/</link>
       <pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://www.mapa.org/team/</guid>
+      <guid>https://jaspershen-lab.github.io/mapa-website/team/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hello R Markdown</title>
-      <link>https://www.mapa.org/post/2020-12-01-r-rmarkdown/</link>
+      <link>https://jaspershen-lab.github.io/mapa-website/post/2020-12-01-r-rmarkdown/</link>
       <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
-      <guid>https://www.mapa.org/post/2020-12-01-r-rmarkdown/</guid>
+      <guid>https://jaspershen-lab.github.io/mapa-website/post/2020-12-01-r-rmarkdown/</guid>
       <description>
 
 
@@ -1110,7 +1110,7 @@ pie(
   init.angle = -50, border = NA
 )&lt;/code&gt;&lt;/pre&gt;
 &lt;div class=&#34;figure&#34;&gt;&lt;span style=&#34;display:block;&#34; id=&#34;fig:pie&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;https://www.mapa.org/post/2020-12-01-r-rmarkdown/index.en_files/figure-html/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;
+&lt;img src=&#34;https://jaspershen-lab.github.io/mapa-website/post/2020-12-01-r-rmarkdown/index.en_files/figure-html/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Figure 1: A fancy pie chart.
 &lt;/p&gt;
@@ -1121,33 +1121,33 @@ Figure 1: A fancy pie chart.
     
     <item>
       <title>microbiomedataset</title>
-      <link>https://www.mapa.org/packages/microbiomedataset/</link>
+      <link>https://jaspershen-lab.github.io/mapa-website/packages/microbiomedataset/</link>
       <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://www.mapa.org/packages/microbiomedataset/</guid>
+      <guid>https://jaspershen-lab.github.io/mapa-website/packages/microbiomedataset/</guid>
       <description></description>
     </item>
     
     <item>
       <title>microbiomeplot</title>
-      <link>https://www.mapa.org/packages/microbiomeplot/</link>
+      <link>https://jaspershen-lab.github.io/mapa-website/packages/microbiomeplot/</link>
       <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://www.mapa.org/packages/microbiomeplot/</guid>
+      <guid>https://jaspershen-lab.github.io/mapa-website/packages/microbiomeplot/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tidymicrobiome</title>
-      <link>https://www.mapa.org/packages/tidymicrobiome/</link>
+      <link>https://jaspershen-lab.github.io/mapa-website/packages/tidymicrobiome/</link>
       <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://www.mapa.org/packages/tidymicrobiome/</guid>
+      <guid>https://jaspershen-lab.github.io/mapa-website/packages/tidymicrobiome/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://www.mapa.org/admin/config.yml</link>
+      <link>https://jaspershen-lab.github.io/mapa-website/admin/config.yml</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.mapa.org/admin/config.yml</guid>
+      <guid>https://jaspershen-lab.github.io/mapa-website/admin/config.yml</guid>
       <description></description>
     </item>
     

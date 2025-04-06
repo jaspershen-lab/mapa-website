@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Chapter 2-microbiomeDataset class | MAPA</title>
-    <link>https://www.mapa.org/docs/chapter2/</link>
-      <atom:link href="https://www.mapa.org/docs/chapter2/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://jaspershen-lab.github.io/mapa-website/docs/chapter2/</link>
+      <atom:link href="https://jaspershen-lab.github.io/mapa-website/docs/chapter2/index.xml" rel="self" type="application/rss+xml" />
     <description>Chapter 2-microbiomeDataset class</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 09 Sep 2018 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://www.mapa.org/media/icon_hu020e6bcd0cde00a6d3452f1e68a5a64c_185832_512x512_fill_lanczos_center_3.png</url>
+      <url>https://jaspershen-lab.github.io/mapa-website/media/icon_hu020e6bcd0cde00a6d3452f1e68a5a64c_185832_512x512_fill_lanczos_center_3.png</url>
       <title>Chapter 2-microbiomeDataset class</title>
-      <link>https://www.mapa.org/docs/chapter2/</link>
+      <link>https://jaspershen-lab.github.io/mapa-website/docs/chapter2/</link>
     </image>
     
     <item>
       <title>Importing data</title>
-      <link>https://www.mapa.org/docs/chapter2/1-import-data/</link>
+      <link>https://jaspershen-lab.github.io/mapa-website/docs/chapter2/1-import-data/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://www.mapa.org/docs/chapter2/1-import-data/</guid>
+      <guid>https://jaspershen-lab.github.io/mapa-website/docs/chapter2/1-import-data/</guid>
       <description>&lt;h2 id=&#34;loading-included-data&#34;&gt;Loading included data&lt;/h2&gt;
 &lt;p&gt;You can load the demo data in &lt;code&gt;microbiomedataset&lt;/code&gt; package to see the &lt;code&gt;microbiome_dataset&lt;/code&gt; class.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nf&#34;&gt;library&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;microbiomedataset&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
@@ -190,13 +190,13 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;microbiomedataset&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;plot_barplot&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;object&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;object&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; 
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                                &lt;span class=&#34;n&#34;&gt;top_n&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                                &lt;span class=&#34;n&#34;&gt;fill&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;Phylum&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://www.mapa.org/docs/chapter2/1-import-data_files/figure-html/unnamed-chunk-9-1.png&#34; width=&#34;100%&#34; /&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://jaspershen-lab.github.io/mapa-website/docs/chapter2/1-import-data_files/figure-html/unnamed-chunk-9-1.png&#34; width=&#34;100%&#34; /&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;microbiomedataset&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;plot_barplot&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;object&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;object&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; 
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                                &lt;span class=&#34;n&#34;&gt;top_n&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                                &lt;span class=&#34;n&#34;&gt;fill&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;Phylum&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; 
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                                &lt;span class=&#34;n&#34;&gt;relative&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;TRUE&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; 
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                                &lt;span class=&#34;n&#34;&gt;re_calculate_relative&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;TRUE&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://www.mapa.org/docs/chapter2/1-import-data_files/figure-html/unnamed-chunk-10-1.png&#34; width=&#34;100%&#34; /&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://jaspershen-lab.github.io/mapa-website/docs/chapter2/1-import-data_files/figure-html/unnamed-chunk-10-1.png&#34; width=&#34;100%&#34; /&gt;
 &lt;h2 id=&#34;session-information&#34;&gt;Session information&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nf&#34;&gt;sessionInfo&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#&amp;gt; R version 4.3.0 (2023-04-21)&lt;/span&gt;
@@ -303,9 +303,9 @@
     
     <item>
       <title>Transform absolute to relative intensity</title>
-      <link>https://www.mapa.org/docs/chapter2/2-relative-intensity/</link>
+      <link>https://jaspershen-lab.github.io/mapa-website/docs/chapter2/2-relative-intensity/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://www.mapa.org/docs/chapter2/2-relative-intensity/</guid>
+      <guid>https://jaspershen-lab.github.io/mapa-website/docs/chapter2/2-relative-intensity/</guid>
       <description>&lt;h2 id=&#34;loading-included-data&#34;&gt;Loading included data&lt;/h2&gt;
 &lt;p&gt;Let&amp;rsquo;s load the demo data.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nf&#34;&gt;library&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;microbiomedataset&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
@@ -465,9 +465,9 @@
     
     <item>
       <title>Functions for accessing and preprocessing data</title>
-      <link>https://www.mapa.org/docs/chapter2/3-preprocess/</link>
+      <link>https://jaspershen-lab.github.io/mapa-website/docs/chapter2/3-preprocess/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://www.mapa.org/docs/chapter2/3-preprocess/</guid>
+      <guid>https://jaspershen-lab.github.io/mapa-website/docs/chapter2/3-preprocess/</guid>
       <description>&lt;h2 id=&#34;loading-included-data&#34;&gt;Loading included data&lt;/h2&gt;
 &lt;p&gt;Let&amp;rsquo;s load the demo data.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nf&#34;&gt;library&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;microbiomedataset&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
@@ -696,9 +696,9 @@
     
     <item>
       <title>Merge data</title>
-      <link>https://www.mapa.org/docs/chapter2/4-merge/</link>
+      <link>https://jaspershen-lab.github.io/mapa-website/docs/chapter2/4-merge/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://www.mapa.org/docs/chapter2/4-merge/</guid>
+      <guid>https://jaspershen-lab.github.io/mapa-website/docs/chapter2/4-merge/</guid>
       <description>&lt;p&gt;Merging OTU or sample indices based on variables in the data can be a useful means of reducing noise or excess features in an analysis or graphic.&lt;/p&gt;
 &lt;h2 id=&#34;loading-included-data&#34;&gt;Loading included data&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nf&#34;&gt;library&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;microbiomedataset&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
