@@ -1,0 +1,70 @@
+---
+date: "2019-05-05T00:00:00+01:00"
+title: "GitHub"
+linktitle: GitHub
+author: admin
+type: book
+weight: 2
+commentable: true
+---
+
+
+
+<div id="update-r-version" class="section level2">
+<h2>Update R version</h2>
+<p><code>tidymicrobiome</code> require R version &gt; 4.1.</p>
+<p>You can check your R version in your console:</p>
+<pre class="r"><code>version
+##                _                           
+## platform       aarch64-apple-darwin20      
+## arch           aarch64                     
+## os             darwin20                    
+## system         aarch64, darwin20           
+## status                                     
+## major          4                           
+## minor          4.1                         
+## year           2024                        
+## month          06                          
+## day            14                          
+## svn rev        86737                       
+## language       R                           
+## version.string R version 4.4.1 (2024-06-14)
+## nickname       Race for Your Life</code></pre>
+<p>If your R version is &lt; 4.1, please download and install the <a href="https://cran.r-project.org/mirrors.html">latest version of R</a>, and then restart your R.</p>
+</div>
+<div id="install-tidymicrobiome" class="section level2">
+<h2>Install <code>tidymicrobiome</code></h2>
+<p>Copy and paste the below code in your console.</p>
+<pre class="r"><code>if(!require(remotes)){
+  install.packages(&quot;remotes&quot;)
+}
+remotes::install_github(&quot;tidymicrobiome/tidymicrobiome&quot;, dependencies = TRUE)</code></pre>
+</div>
+<div id="some-issues" class="section level2">
+<h2>Some issues</h2>
+<ol style="list-style-type: decimal">
+<li><p>During the installation, it will ask if you want to update some packages for few times, just enter <code>Enter</code> or <code>Reurn</code> key to skip it.</p></li>
+<li><p>If there is a error like below:</p></li>
+</ol>
+<p>Error: Failed to install ‘tidymicrobiome’ from GitHub: HTTP error 403. API rate limit exceeded for 171.66.10.237. (But here’s the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)</p>
+<p>Try to resolve it by:</p>
+<ul>
+<li>In you R console, type this code:</li>
+</ul>
+<pre class="r"><code>if(!require(usethis)){
+  install.packages(&quot;usethis&quot;)
+}
+usethis::create_github_token()</code></pre>
+<p>It will open a page in browser, and create a “New personal access token” and copy it.</p>
+<p><img src="figures/fig3.png" /></p>
+<ul>
+<li>Then type this code:</li>
+</ul>
+<pre class="r"><code>usethis::edit_r_environ()</code></pre>
+<p>and then add one line like below:</p>
+<pre class="r"><code>GITHUB_PAT=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</code></pre>
+<blockquote>
+<p>The GITHUB_PAT should be yours that is created in step 1.</p>
+</blockquote>
+<p>And then restart R session and try again.</p>
+</div>

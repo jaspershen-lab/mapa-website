@@ -1,0 +1,243 @@
+---
+date: "2019-05-05T00:00:00+01:00"
+title: "Functions for accessing and preprocessing data"
+linktitle: "3 Functions for accessing and preprocessing data"
+author: admin
+type: book
+weight: 3
+commentable: true
+---
+
+
+
+<div id="loading-included-data" class="section level2">
+<h2>Loading included data</h2>
+<p>Let’s load the demo data.</p>
+<pre class="r"><code>library(microbiomedataset)
+library(tidyverse)
+data(&quot;global_patterns&quot;)
+global_patterns
+#&gt; -------------------- 
+#&gt; microbiomedataset version: 0.99.1 
+#&gt; -------------------- 
+#&gt; 1.expression_data:[ 19216 x 26 data.frame]
+#&gt; 2.sample_info:[ 26 x 8 data.frame]
+#&gt; 3.variable_info:[ 19216 x 8 data.frame]
+#&gt; 4.sample_info_note:[ 8 x 2 data.frame]
+#&gt; 5.variable_info_note:[ 8 x 2 data.frame]
+#&gt; -------------------- 
+#&gt; Processing information (extract_process_info())
+#&gt; create_microbiome_dataset ---------- 
+#&gt;             Package               Function.used                Time
+#&gt; 1 microbiomedataset create_microbiome_dataset() 2022-07-10 10:56:13</code></pre>
+</div>
+<div id="accessors" class="section level2">
+<h2>Accessors</h2>
+<pre class="r"><code>dim(global_patterns)
+#&gt; variables   samples 
+#&gt;     19216        26
+nrow(global_patterns)
+#&gt; variables 
+#&gt;     19216
+ncol(global_patterns)
+#&gt; samples 
+#&gt;      26</code></pre>
+<pre class="r"><code>colnames(global_patterns)
+#&gt;  [1] &quot;CL3&quot;      &quot;CC1&quot;      &quot;SV1&quot;      &quot;M31Fcsw&quot;  &quot;M11Fcsw&quot;  &quot;M31Plmr&quot; 
+#&gt;  [7] &quot;M11Plmr&quot;  &quot;F21Plmr&quot;  &quot;M31Tong&quot;  &quot;M11Tong&quot;  &quot;LMEpi24M&quot; &quot;SLEpi20M&quot;
+#&gt; [13] &quot;AQC1cm&quot;   &quot;AQC4cm&quot;   &quot;AQC7cm&quot;   &quot;NP2&quot;      &quot;NP3&quot;      &quot;NP5&quot;     
+#&gt; [19] &quot;TRRsed1&quot;  &quot;TRRsed2&quot;  &quot;TRRsed3&quot;  &quot;TS28&quot;     &quot;TS29&quot;     &quot;Even1&quot;   
+#&gt; [25] &quot;Even2&quot;    &quot;Even3&quot;</code></pre>
+<pre class="r"><code>head(rownames(global_patterns))
+#&gt; [1] &quot;549322&quot; &quot;522457&quot; &quot;951&quot;    &quot;244423&quot; &quot;586076&quot; &quot;246140&quot;</code></pre>
+<pre class="r"><code>extract_sample_info(global_patterns) %&gt;% 
+  colnames()
+#&gt; [1] &quot;sample_id&quot;                &quot;Primer&quot;                  
+#&gt; [3] &quot;Final_Barcode&quot;            &quot;Barcode_truncated_plus_T&quot;
+#&gt; [5] &quot;Barcode_full_length&quot;      &quot;SampleType&quot;              
+#&gt; [7] &quot;Description&quot;              &quot;class&quot;</code></pre>
+<pre class="r"><code>extract_variable_info(global_patterns) %&gt;% 
+  colnames()
+#&gt; [1] &quot;variable_id&quot; &quot;Kingdom&quot;     &quot;Phylum&quot;      &quot;Class&quot;       &quot;Order&quot;      
+#&gt; [6] &quot;Family&quot;      &quot;Genus&quot;       &quot;Species&quot;</code></pre>
+<pre class="r"><code>extract_expression_data(global_patterns) %&gt;% 
+  head()
+#&gt;        CL3 CC1 SV1 M31Fcsw M11Fcsw M31Plmr M11Plmr F21Plmr M31Tong M11Tong
+#&gt; 549322   0   0   0       0       0       0       0       0       0       0
+#&gt; 522457   0   0   0       0       0       0       0       0       0       0
+#&gt; 951      0   0   0       0       0       0       1       0       0       0
+#&gt; 244423   0   0   0       0       0       0       0       0       0       0
+#&gt; 586076   0   0   0       0       0       0       0       0       0       0
+#&gt; 246140   0   0   0       0       0       0       0       0       0       0
+#&gt;        LMEpi24M SLEpi20M AQC1cm AQC4cm AQC7cm NP2 NP3 NP5 TRRsed1 TRRsed2
+#&gt; 549322        0        1     27    100    130   1   0   0       0       0
+#&gt; 522457        0        0      0      2      6   0   0   0       0       0
+#&gt; 951           0        0      0      0      0   0   0   0       0       0
+#&gt; 244423        0        0      0     22     29   0   0   0       0       0
+#&gt; 586076        0        0      0      2      1   0   0   0       0       0
+#&gt; 246140        0        0      0      1      3   0   0   0       0       0
+#&gt;        TRRsed3 TS28 TS29 Even1 Even2 Even3
+#&gt; 549322       0    0    0     0     0     0
+#&gt; 522457       0    0    0     0     0     0
+#&gt; 951          0    0    0     0     0     0
+#&gt; 244423       0    0    0     0     0     0
+#&gt; 586076       0    0    0     0     0     0
+#&gt; 246140       0    0    0     0     0     0</code></pre>
+<pre class="r"><code>extract_sample_info(global_patterns) %&gt;% 
+  head()
+#&gt;   sample_id  Primer Final_Barcode Barcode_truncated_plus_T Barcode_full_length
+#&gt; 1       CL3 ILBC_01        AACGCA                   TGCGTT         CTAGCGTGCGT
+#&gt; 2       CC1 ILBC_02        AACTCG                   CGAGTT         CATCGACGAGT
+#&gt; 3       SV1 ILBC_03        AACTGT                   ACAGTT         GTACGCACAGT
+#&gt; 4   M31Fcsw ILBC_04        AAGAGA                   TCTCTT         TCGACATCTCT
+#&gt; 5   M11Fcsw ILBC_05        AAGCTG                   CAGCTT         CGACTGCAGCT
+#&gt; 6   M31Plmr ILBC_07        AATCGT                   ACGATT         CGAGTCACGAT
+#&gt;   SampleType                                Description   class
+#&gt; 1       Soil   Calhoun South Carolina Pine soil, pH 4.9 Subject
+#&gt; 2       Soil   Cedar Creek Minnesota, grassland, pH 6.1 Subject
+#&gt; 3       Soil Sevilleta new Mexico, desert scrub, pH 8.3 Subject
+#&gt; 4      Feces    M3, Day 1, fecal swab, whole body study Subject
+#&gt; 5      Feces   M1, Day 1, fecal swab, whole body study  Subject
+#&gt; 6       Skin    M3, Day 1, right palm, whole body study Subject</code></pre>
+<pre class="r"><code>extract_variable_info(global_patterns) %&gt;% 
+  head()
+#&gt;   variable_id Kingdom        Phylum        Class        Order        Family
+#&gt; 1      549322 Archaea Crenarchaeota Thermoprotei         &lt;NA&gt;          &lt;NA&gt;
+#&gt; 2      522457 Archaea Crenarchaeota Thermoprotei         &lt;NA&gt;          &lt;NA&gt;
+#&gt; 3         951 Archaea Crenarchaeota Thermoprotei Sulfolobales Sulfolobaceae
+#&gt; 4      244423 Archaea Crenarchaeota        Sd-NA         &lt;NA&gt;          &lt;NA&gt;
+#&gt; 5      586076 Archaea Crenarchaeota        Sd-NA         &lt;NA&gt;          &lt;NA&gt;
+#&gt; 6      246140 Archaea Crenarchaeota        Sd-NA         &lt;NA&gt;          &lt;NA&gt;
+#&gt;        Genus                  Species
+#&gt; 1       &lt;NA&gt;                     &lt;NA&gt;
+#&gt; 2       &lt;NA&gt;                     &lt;NA&gt;
+#&gt; 3 Sulfolobus Sulfolobusacidocaldarius
+#&gt; 4       &lt;NA&gt;                     &lt;NA&gt;
+#&gt; 5       &lt;NA&gt;                     &lt;NA&gt;
+#&gt; 6       &lt;NA&gt;                     &lt;NA&gt;</code></pre>
+</div>
+<div id="preprocessing" class="section level2">
+<h2>Preprocessing</h2>
+<p>The <code>microbiomedataset</code> package also includes functions for filtering, subsetting, and merging abundance data.</p>
+<p>In the following example, the <code>global_patterns</code> data is first transformed to relative abundance, creating the new <code>global_patterns2</code> object, which is then filtered such that only OTUs with a mean greater than 10^-5 are kept.</p>
+<pre class="r"><code>global_patterns2 &lt;-
+  global_patterns %&gt;%
+  transform2relative_intensity() %&gt;%
+  mutate2variable(what = &quot;mean_intensity&quot;) %&gt;%
+  activate_microbiome_dataset(what = &quot;variable_info&quot;) %&gt;%
+  filter(mean_intensity &gt; 10 ^ (-5))</code></pre>
+<p>This results in a highly-subsetted object, <code>global_patterns2</code>, containing just 4624 of the original ~19216 OTUs.</p>
+<p>Next, only remain the variables that phylum Chlamydiae.</p>
+<pre class="r"><code>global_patterns_chl &lt;-
+  global_patterns %&gt;%
+  activate_microbiome_dataset(what = &quot;variable_info&quot;) %&gt;%
+  dplyr::filter(Phylum == &quot;Chlamydiae&quot;)</code></pre>
+<p>Next, only remain the samples with total intensity &gt; 20.</p>
+<pre class="r"><code>global_patterns_chl &lt;-
+  global_patterns_chl %&gt;%
+  mutate2sample(what = &quot;sum_intensity&quot;) %&gt;%
+  activate_microbiome_dataset(what = &quot;sample_info&quot;) %&gt;%
+  filter(sum_intensity &gt; 20)</code></pre>
+</div>
+<div id="session-information" class="section level2">
+<h2>Session information</h2>
+<pre class="r"><code>sessionInfo()
+#&gt; R version 4.3.0 (2023-04-21)
+#&gt; Platform: x86_64-apple-darwin20 (64-bit)
+#&gt; Running under: macOS Ventura 13.5.2
+#&gt; 
+#&gt; Matrix products: default
+#&gt; BLAS:   /Library/Frameworks/R.framework/Versions/4.3-x86_64/Resources/lib/libRblas.0.dylib 
+#&gt; LAPACK: /Library/Frameworks/R.framework/Versions/4.3-x86_64/Resources/lib/libRlapack.dylib;  LAPACK version 3.11.0
+#&gt; 
+#&gt; locale:
+#&gt; [1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
+#&gt; 
+#&gt; time zone: America/Los_Angeles
+#&gt; tzcode source: internal
+#&gt; 
+#&gt; attached base packages:
+#&gt; [1] stats     graphics  grDevices utils     datasets  methods   base     
+#&gt; 
+#&gt; other attached packages:
+#&gt;  [1] lubridate_1.9.2           forcats_1.0.0            
+#&gt;  [3] stringr_1.5.0             dplyr_1.1.2              
+#&gt;  [5] purrr_1.0.1               readr_2.1.4              
+#&gt;  [7] tidyr_1.3.0               tibble_3.2.1             
+#&gt;  [9] ggplot2_3.4.2             tidyverse_2.0.0          
+#&gt; [11] microbiomedataset_0.99.10
+#&gt; 
+#&gt; loaded via a namespace (and not attached):
+#&gt;   [1] RColorBrewer_1.1-3          rstudioapi_0.14            
+#&gt;   [3] jsonlite_1.8.5              shape_1.4.6                
+#&gt;   [5] magrittr_2.0.3              farver_2.1.1               
+#&gt;   [7] MALDIquant_1.22.1           rmarkdown_2.22             
+#&gt;   [9] GlobalOptions_0.1.2         zlibbioc_1.46.0            
+#&gt;  [11] vctrs_0.6.2                 multtest_2.56.0            
+#&gt;  [13] RCurl_1.98-1.12             blogdown_1.18.1            
+#&gt;  [15] htmltools_0.5.5             S4Arrays_1.0.4             
+#&gt;  [17] Rhdf5lib_1.22.0             rhdf5_2.44.0               
+#&gt;  [19] gridGraphics_0.5-1          mzID_1.38.0                
+#&gt;  [21] sass_0.4.6                  bslib_0.5.0                
+#&gt;  [23] htmlwidgets_1.6.2           plyr_1.8.8                 
+#&gt;  [25] zoo_1.8-12                  plotly_4.10.2              
+#&gt;  [27] impute_1.74.1               cachem_1.0.8               
+#&gt;  [29] igraph_1.4.3                lifecycle_1.0.3            
+#&gt;  [31] iterators_1.0.14            pkgconfig_2.0.3            
+#&gt;  [33] Matrix_1.5-4                R6_2.5.1                   
+#&gt;  [35] fastmap_1.1.1               GenomeInfoDbData_1.2.10    
+#&gt;  [37] MatrixGenerics_1.12.2       clue_0.3-64                
+#&gt;  [39] digest_0.6.31               pcaMethods_1.92.0          
+#&gt;  [41] colorspace_2.1-0            masstools_1.0.10           
+#&gt;  [43] S4Vectors_0.38.1            rprojroot_2.0.3            
+#&gt;  [45] GenomicRanges_1.52.0        vegan_2.6-4                
+#&gt;  [47] timechange_0.2.0            fansi_1.0.4                
+#&gt;  [49] httr_1.4.6                  mgcv_1.8-42                
+#&gt;  [51] polyclip_1.10-4             compiler_4.3.0             
+#&gt;  [53] here_1.0.1                  remotes_2.4.2              
+#&gt;  [55] withr_2.5.0                 doParallel_1.0.17          
+#&gt;  [57] BiocParallel_1.34.2         viridis_0.6.3              
+#&gt;  [59] ggforce_0.4.1               MASS_7.3-58.4              
+#&gt;  [61] DelayedArray_0.26.3         biomformat_1.28.0          
+#&gt;  [63] rjson_0.2.21                permute_0.9-7              
+#&gt;  [65] ggsci_3.0.0                 mzR_2.34.0                 
+#&gt;  [67] tools_4.3.0                 ape_5.7-1                  
+#&gt;  [69] zip_2.3.0                   glue_1.6.2                 
+#&gt;  [71] rhdf5filters_1.12.1         nlme_3.1-162               
+#&gt;  [73] grid_4.3.0                  cluster_2.1.4              
+#&gt;  [75] reshape2_1.4.4              ade4_1.7-22                
+#&gt;  [77] generics_0.1.3              gtable_0.3.3               
+#&gt;  [79] tzdb_0.4.0                  preprocessCore_1.62.1      
+#&gt;  [81] data.table_1.14.8           hms_1.1.3                  
+#&gt;  [83] tidygraph_1.2.3             utf8_1.2.3                 
+#&gt;  [85] XVector_0.40.0              BiocGenerics_0.46.0        
+#&gt;  [87] ggrepel_0.9.3               foreach_1.5.2              
+#&gt;  [89] pillar_1.9.0                yulab.utils_0.0.6          
+#&gt;  [91] limma_3.56.2                splines_4.3.0              
+#&gt;  [93] circlize_0.4.15             tweenr_2.0.2               
+#&gt;  [95] lattice_0.21-8              survival_3.5-5             
+#&gt;  [97] tidyselect_1.2.0            ComplexHeatmap_2.16.0      
+#&gt;  [99] Biostrings_2.68.1           pbapply_1.7-0              
+#&gt; [101] knitr_1.43                  gridExtra_2.3              
+#&gt; [103] bookdown_0.34               phyloseq_1.44.0            
+#&gt; [105] IRanges_2.34.0              ProtGenerics_1.32.0        
+#&gt; [107] SummarizedExperiment_1.30.2 Rdisop_1.60.0              
+#&gt; [109] stats4_4.3.0                xfun_0.39                  
+#&gt; [111] graphlayouts_1.0.0          Biobase_2.60.0             
+#&gt; [113] MSnbase_2.26.0              matrixStats_1.0.0          
+#&gt; [115] stringi_1.7.12              lazyeval_0.2.2             
+#&gt; [117] yaml_2.3.7                  evaluate_0.21              
+#&gt; [119] codetools_0.2-19            ggraph_2.1.0               
+#&gt; [121] MsCoreUtils_1.12.0          BiocManager_1.30.21        
+#&gt; [123] ggplotify_0.1.0             cli_3.6.1                  
+#&gt; [125] affyio_1.70.0               munsell_0.5.0              
+#&gt; [127] jquerylib_0.1.4             Rcpp_1.0.10                
+#&gt; [129] GenomeInfoDb_1.36.0         png_0.1-8                  
+#&gt; [131] XML_3.99-0.14               parallel_4.3.0             
+#&gt; [133] bitops_1.0-7                tidytree_0.4.2             
+#&gt; [135] viridisLite_0.4.2           scales_1.2.1               
+#&gt; [137] affy_1.78.0                 openxlsx_4.2.5.2           
+#&gt; [139] ncdf4_1.21                  crayon_1.5.2               
+#&gt; [141] GetoptLong_1.0.5            rlang_1.1.1                
+#&gt; [143] massdataset_1.0.25          vsn_3.68.0</code></pre>
+</div>

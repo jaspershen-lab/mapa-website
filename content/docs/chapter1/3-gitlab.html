@@ -1,0 +1,48 @@
+---
+date: "2019-05-05T00:00:00+01:00"
+title: "GitLab"
+linktitle: GitLab
+author: admin
+type: book
+weight: 3
+commentable: true
+---
+
+
+
+<div id="update-r-version" class="section level2">
+<h2>Update R version</h2>
+<p><code>tidymicrobiome</code> require R version &gt; 4.1.</p>
+<p>You can check your R version in your console:</p>
+<pre class="r"><code>version
+##                _                           
+## platform       aarch64-apple-darwin20      
+## arch           aarch64                     
+## os             darwin20                    
+## system         aarch64, darwin20           
+## status                                     
+## major          4                           
+## minor          4.1                         
+## year           2024                        
+## month          06                          
+## day            14                          
+## svn rev        86737                       
+## language       R                           
+## version.string R version 4.4.1 (2024-06-14)
+## nickname       Race for Your Life</code></pre>
+<p>If your R version is &lt; 4.1, please download and install the <a href="https://cran.r-project.org/mirrors.html">latest version of R</a>, and then restart your R.</p>
+</div>
+<div id="install-tidymicrobiome" class="section level2">
+<h2>Install <code>tidymicrobiome</code></h2>
+<p>Copy and paste the below code in your console.</p>
+<pre class="r"><code>if(!require(remotes)){
+  install.packages(&quot;remotes&quot;)
+}
+remotes::install_gitlab(&quot;tidymicrobiome/tidymicrobiome&quot;, dependencies = TRUE)</code></pre>
+</div>
+<div id="some-issues" class="section level2">
+<h2>Some issues</h2>
+<ol style="list-style-type: decimal">
+<li>During the installation, it will ask if you want to update some packages for few times, just enter <code>Enter</code> or <code>Reurn</code> key to skip it.</li>
+</ol>
+</div>
