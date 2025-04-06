@@ -9,7 +9,6 @@ baseURL: 'https://jaspershen-lab.github.io/mapa-website/' # Website URL
 #docs
 publishDir: 'docs'
 
-
 ############################
 ## PAGE OPTIONS
 ############################

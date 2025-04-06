@@ -17,23 +17,23 @@ commentable: true
 You can check your R version in your console:
 
 
-```r
+``` r
 version
 ##                _                           
-## platform       x86_64-apple-darwin20       
-## arch           x86_64                      
+## platform       aarch64-apple-darwin20      
+## arch           aarch64                     
 ## os             darwin20                    
-## system         x86_64, darwin20            
+## system         aarch64, darwin20           
 ## status                                     
 ## major          4                           
-## minor          3.0                         
-## year           2023                        
-## month          04                          
-## day            21                          
-## svn rev        84292                       
+## minor          4.1                         
+## year           2024                        
+## month          06                          
+## day            14                          
+## svn rev        86737                       
 ## language       R                           
-## version.string R version 4.3.0 (2023-04-21)
-## nickname       Already Tomorrow
+## version.string R version 4.4.1 (2024-06-14)
+## nickname       Race for Your Life
 ```
 
 If your R version is < 4.1, please download and install the [latest version of R](https://cran.r-project.org/mirrors.html), and then restart your R.
@@ -43,11 +43,11 @@ If your R version is < 4.1, please download and install the [latest version of R
 Copy and paste the below code in your console.
 
 
-```r
+``` r
 source("https://www.tidyfood.org/tidyfood-packages/install_tidyfood.txt")
 ```
 
 
-```r
+``` r
 install_tidyfood(from = "tidyfood.org")
 ```
