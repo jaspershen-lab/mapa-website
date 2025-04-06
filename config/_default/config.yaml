@@ -6,6 +6,10 @@
 title: 'MAPA' # Website name
 baseURL: 'https://www.mapa.org/' # Website URL
 
+#docs
+publishDir: 'docs'
+
+
 ############################
 ## PAGE OPTIONS
 ############################
