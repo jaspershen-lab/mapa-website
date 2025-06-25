@@ -3,7 +3,7 @@ widget: hero
 headless: true
 weight: 10
 title: MAPA Project
-hero_media: tidymicrobiome.svg
+hero_media: mapa.svg
 design:
   background:
     gradient_start: '#5e4580'
@@ -25,23 +25,14 @@ cta:
 ---
 
 
-MAPA is a project for functional module annotation for pathway enrichment analysis results using LLM.
+MAPA is a software for pathway-enrichment analysis and enrichment 
+result interpretation that turns large omics datasets into clear biological insight.
 
-Install mapa:
+Citation: [mapa](https://doi.org/10.1101/2023.09.17.558096)
 
-```
-remotes::install_gitlab("jaspershen-shen/mapa")
-```
-
-or
-
-```
-source("https://www.tidymicrobiome.org/tidymicrobiome-packages/install_tidymicrobiome.txt")
-install_tidymicrobiome(from = "tidymicrobiome.org")
-```
-
-[More here](https://www.tidymicrobiome.org/docs/chapter1/)
-
-Citation: [1 mapa](https://doi.org/10.1101/2023.09.17.558096)
-
-<a class="github-button" href="https://github.com/jaspershen-lab/mapa" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star Wowchemy Website Builder for Hugo">Star MAPA project</a><br><a class="github-button" href="https://github.com/jaspershen-lab/mapa" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star the Project Docs template">Star MAPA tutorial</a><script async defer src="https://buttons.github.io/buttons.js"></script>
+<a class="github-button" href="https://github.com/jaspershen-lab/mapa" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star Wowchemy Website Builder for Hugo">Star MAPA project</a>
+<br>
+<a class="github-button" href="https://github.com/jaspershen-lab/mapashiny" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star Wowchemy Website Builder for Hugo">Star MAPA Shiny</a>
+<br>
+<a class="github-button" href="https://github.com/jaspershen-lab/mapa-tutorial" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star the Project Docs template">Star MAPA tutorial</a>
+<script async defer src="https://buttons.github.io/buttons.js"></script>
