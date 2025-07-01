@@ -10,7 +10,7 @@ design:
     gradient_end: '#bc89ff'
     text_color_light: true
 cta:
-  url: docs/
+  url: https://www.shen-lab.org/mapa-tutorial/
   label: Get Started
   icon_pack: fas
   icon: download
@@ -26,9 +26,13 @@ cta:
 
 
 MAPA is a software for pathway-enrichment analysis and enrichment 
-result interpretation that turns large omics datasets into clear biological insight.
+result interpretation using Large Language Modes (LLMs) that turns complex multi-omics datasets into clear biological insight.
 
-Citation: [mapa](https://doi.org/10.1101/2023.09.17.558096)
+📚 Citation: [mapa](https://doi.org/10.1101/2023.09.17.558096)
+
+📖 Tutorial: [MAPA tutorial](https://www.shen-lab.org/mapa-tutorial/)
+
+☁️ Online MAPA: [MAPA Shiny](https://mapa.shen-lab.org/mapashiny)
 
 <a class="github-button" href="https://github.com/jaspershen-lab/mapa" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star Wowchemy Website Builder for Hugo">Star MAPA project</a>
 <br>

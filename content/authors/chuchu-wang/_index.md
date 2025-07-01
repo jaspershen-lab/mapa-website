@@ -9,7 +9,7 @@ social:
 superuser: false
 title: Chuchu Wang
 user_groups:
-- Leader
+- Authors
 ---
 
 
