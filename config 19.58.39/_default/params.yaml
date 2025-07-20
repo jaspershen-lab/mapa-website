@@ -35,10 +35,10 @@ header:
     blox: "navbar"
     align: "center"
     fixed_to_top: true
-    logo:
-      text: "MAPA"
+    # logo:
+      # text: "MAPA"
       # Logo filename in `assets/media/` folder
-      filename: ""
+      # filename: ""
     button:
       enable: true
       text: "Shen Lab"

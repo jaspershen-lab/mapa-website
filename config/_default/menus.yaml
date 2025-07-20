@@ -4,18 +4,18 @@
 #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: Home
+  - name: HOME
     url: "#hero"
     weight: 10
-  - name: Team
+  - name: TEAN
     url: "#team"
     weight: 20
-  - name: Contact
+  - name: CONTACT
     url: "#contact"
     weight: 30
-  - name: News
+  - name: NEWS
     url: news/
     weight: 40
-  - name: Tutorials
+  - name: TUTORIALS
     url: https://www.shen-lab.org/mapa-tutorial/
     weight: 50
