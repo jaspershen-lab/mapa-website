@@ -13,13 +13,6 @@ commentable: true
 first_name: Feifan
 last_name: ZHANG
 highlight_name: false
-interests:
-- 🖥 Bioinformatics
-- 💻 Artificial Intelligence
-organizations:
-- name: Nanyang Technological University
-  url: ""
-role: PhD Candidate (2025-)
 social:
 - icon: house
   icon_pack: fas

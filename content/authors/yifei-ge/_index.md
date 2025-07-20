@@ -10,14 +10,6 @@ commentable: true
 first_name: Yifei
 last_name: GE
 highlight_name: true
-interests:
-- 🖥 Biostatistics
-- 💰 Mathematics
-- 💻 Microbiome
-organizations:
-- name: Nanyang Technological University
-  url: ""
-role: PhD Candidate (2025-)
 social:
 - icon: house
   icon_pack: fas
