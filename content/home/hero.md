@@ -32,7 +32,7 @@ result interpretation using Large Language Modes (LLMs) that turns complex multi
 
 📖 Tutorial: [MAPA tutorial](https://www.shen-lab.org/mapa-tutorial/)
 
-☁️ Online MAPA: [MAPA Shiny](https://mapa.shen-lab.org/mapashiny)
+☁️ Online MAPA Shiny: [MAPA Shiny](https://mapashiny.jaspershenlab.com/)
 
 <a class="github-button" href="https://github.com/jaspershen-lab/mapa" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star Wowchemy Website Builder for Hugo">Star MAPA project</a>
 <br>
