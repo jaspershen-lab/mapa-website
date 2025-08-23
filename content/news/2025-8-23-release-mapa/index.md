@@ -69,6 +69,8 @@ MAPA is fully open-source and easy to use:
 	
 * 📖 Tutorial: https://www.shen-lab.org/mapa-tutorial/
 
+* 🖥️ MAPA shiny: https://mapashiny.jaspershenlab.com/
+
 We invite the community to explore MAPA, use it in your own analyses, and provide feedback!
 
 ## 📢 Join the Discussion
