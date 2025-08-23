@@ -3,7 +3,7 @@ widget: hero
 headless: true
 weight: 10
 title: MAPA Project
-hero_media: mapa.svg
+hero_media: mapa_workflow.svg
 design:
   background:
     gradient_start: '#5e4580'
