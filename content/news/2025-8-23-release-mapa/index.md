@@ -23,6 +23,8 @@ links:
 
 We are excited to announce the release of MAPA (Functional Module Identification and Annotation for Pathway Analysis Results Using Large Language Models), a novel computational framework developed by the Shen Lab that leverages large language models (LLMs) and retrieval-augmented generation (RAG) to tackle one of the most pervasive challenges in omics data analysis: redundancy and fragmentation in pathway enrichment results.
 
+![](mapa_workflow.jpg)
+
 ## 🔍 The Problem: Redundant and Fragmented Pathway Results
 
 Functional enrichment analysis is a cornerstone of systems biology, helping researchers interpret lists of genes, proteins, or metabolites. However, conventional tools often return lengthy lists of overlapping pathways with similar biological meanings—making interpretation challenging and prone to subjective summarization.
