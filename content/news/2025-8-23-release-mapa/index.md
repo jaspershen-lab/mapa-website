@@ -7,15 +7,15 @@ image:
 math: true
 commentable: true
 title: 2025-08-25 Release MAPA
-links:
-- icon: link
-  icon_pack: fas
-  name: Link
-  url: https://www.mdpi.com/2072-6643/16/18/3079
-- icon: file-pdf
-  icon_pack: fas
-  name: PDF
-  # url: publication/Nonlinear dynamics of multi-omics profiles during human aging.pdf
+# links:
+# - icon: link
+#   icon_pack: fas
+#   name: Link
+#   url: https://www.mdpi.com/2072-6643/16/18/3079
+# - icon: file-pdf
+#   icon_pack: fas
+#   name: PDF
+#   # url: publication/Nonlinear dynamics of multi-omics profiles during human aging.pdf
 ---
 
 
@@ -61,7 +61,7 @@ These findings go beyond traditional pathway analysis and demonstrate MAPA’s p
 
 MAPA is fully open-source and easy to use:
 	
-* 📜 Paper: https://doi.org/10.3390/nu16183079
+* 📜 Paper: https://www.biorxiv.org/content/10.1101/2025.08.23.671949v1
 	
 * 🔗 GitHub: https://github.com/jaspershen-lab/mapa
 	

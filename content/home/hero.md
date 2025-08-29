@@ -28,7 +28,7 @@ cta:
 MAPA is a software for pathway-enrichment analysis and enrichment 
 result interpretation using Large Language Modes (LLMs) that turns complex multi-omics datasets into clear biological insight.
 
-📚 Citation: [mapa](https://doi.org/10.1101/2023.09.17.558096)
+📚 Citation: [mapa preprint](https://www.biorxiv.org/content/10.1101/2025.08.23.671949v1)
 
 📖 Tutorial: [MAPA tutorial](https://www.shen-lab.org/mapa-tutorial/)
 
